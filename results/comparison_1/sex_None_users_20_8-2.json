@@ -1,0 +1,322 @@
+{
+    "ee3391e964c97f4159b6d3633fc1c094f3032d9fc3c21bfd8aefc3e8320b115c7383214b4ac8bf3fc474159e09006545e8c1752514a31fd321fa321dbc157bde": {
+        "train": [
+            "common_voice_uk_22117233.mp3",
+            "common_voice_uk_22117234.mp3",
+            "common_voice_uk_22117236.mp3",
+            "common_voice_uk_22117382.mp3",
+            "common_voice_uk_22117384.mp3",
+            "common_voice_uk_22117389.mp3",
+            "common_voice_uk_22117393.mp3",
+            "common_voice_uk_22117443.mp3"
+        ],
+        "test": [
+            "common_voice_uk_22117447.mp3",
+            "common_voice_uk_22117455.mp3"
+        ]
+    },
+    "10a3c2a7d7ac7b678f1442331368d76ef228a3bb4378ee9487e2227fefd969835e7a7c5a3cd847d50451c64c9300a5e27222399ff0eb41a217921718aae385e7": {
+        "train": [
+            "common_voice_uk_23548894.mp3",
+            "common_voice_uk_23548895.mp3",
+            "common_voice_uk_23548896.mp3",
+            "common_voice_uk_23548897.mp3",
+            "common_voice_uk_23548898.mp3",
+            "common_voice_uk_23548935.mp3",
+            "common_voice_uk_23548936.mp3",
+            "common_voice_uk_23548937.mp3"
+        ],
+        "test": [
+            "common_voice_uk_23548938.mp3",
+            "common_voice_uk_23548939.mp3"
+        ]
+    },
+    "197060e6a9ab91add1757392b94f8e64d4cc9a9c48fc63699319fcd4c4c947de65a0f04a833067ec564892cc34303957012c5c9c92d212eaf8951f56bbaa6b9c": {
+        "train": [
+            "common_voice_uk_28987132.mp3",
+            "common_voice_uk_28987133.mp3",
+            "common_voice_uk_28987134.mp3",
+            "common_voice_uk_28987135.mp3",
+            "common_voice_uk_28987136.mp3",
+            "common_voice_uk_28987323.mp3",
+            "common_voice_uk_28987324.mp3",
+            "common_voice_uk_28987327.mp3"
+        ],
+        "test": [
+            "common_voice_uk_28987328.mp3",
+            "common_voice_uk_28987330.mp3"
+        ]
+    },
+    "328cebb3b37b086e33ef95e8ed2883d92f313d0348e8b82dcdf33802e346db5ef65973de9eee66994ba641c7d9650c29868243f2731a98dd8e097598d0a55176": {
+        "train": [
+            "common_voice_uk_23650219.mp3",
+            "common_voice_uk_23650220.mp3",
+            "common_voice_uk_23650221.mp3",
+            "common_voice_uk_23650222.mp3",
+            "common_voice_uk_23650223.mp3",
+            "common_voice_uk_23650224.mp3",
+            "common_voice_uk_23650226.mp3",
+            "common_voice_uk_23650227.mp3"
+        ],
+        "test": [
+            "common_voice_uk_23650228.mp3",
+            "common_voice_uk_23650234.mp3"
+        ]
+    },
+    "f5f2b06efeb57d707ed676533d9bb9e86395495ed894a7e74339fa33b41669a27edc2c856b457c860584cc552b3e89cd25c305a4608c1c2992d6af6c1dfff602": {
+        "train": [
+            "common_voice_uk_22472839.mp3",
+            "common_voice_uk_22472840.mp3",
+            "common_voice_uk_22472841.mp3",
+            "common_voice_uk_22472842.mp3",
+            "common_voice_uk_22472843.mp3",
+            "common_voice_uk_22472865.mp3",
+            "common_voice_uk_22472866.mp3",
+            "common_voice_uk_22472867.mp3"
+        ],
+        "test": [
+            "common_voice_uk_22472868.mp3",
+            "common_voice_uk_22472871.mp3"
+        ]
+    },
+    "64dfe0f54480eab5b16c32e631fc73040db53ba9d6525eb64d15e27f03117213c3a0133928e198a76419c374faf9a9db0a7ddbae06972eba28991d3129debbb2": {
+        "train": [
+            "common_voice_uk_37540909.mp3",
+            "common_voice_uk_37540910.mp3",
+            "common_voice_uk_37540911.mp3",
+            "common_voice_uk_37540912.mp3",
+            "common_voice_uk_37540913.mp3",
+            "common_voice_uk_37540954.mp3",
+            "common_voice_uk_37540956.mp3",
+            "common_voice_uk_37540957.mp3"
+        ],
+        "test": [
+            "common_voice_uk_37540958.mp3",
+            "common_voice_uk_37540959.mp3"
+        ]
+    },
+    "e23b21054cf9d154d114b3d5596fa9ae4eb0758ee07dfd77ae4e873895d270169e33c14f607892c5c38f366aedbd1526dc19760ce1c5c1a31d81278fbae722c0": {
+        "train": [
+            "common_voice_uk_25344384.mp3",
+            "common_voice_uk_25344385.mp3",
+            "common_voice_uk_25344387.mp3",
+            "common_voice_uk_25344388.mp3",
+            "common_voice_uk_25344390.mp3",
+            "common_voice_uk_25344497.mp3",
+            "common_voice_uk_25344498.mp3",
+            "common_voice_uk_25344499.mp3"
+        ],
+        "test": [
+            "common_voice_uk_25344500.mp3",
+            "common_voice_uk_25344501.mp3"
+        ]
+    },
+    "8ff370dfe337c399adcbe05a66e2f9e9fd8c1ecee371382cead72dae830a6bb034871d2f7b71eae3eb9db243cd58d86170ef0c711fa7baad265f25222e9839f1": {
+        "train": [
+            "common_voice_uk_21801184.mp3",
+            "common_voice_uk_21801185.mp3",
+            "common_voice_uk_21801186.mp3",
+            "common_voice_uk_21801187.mp3",
+            "common_voice_uk_21801188.mp3",
+            "common_voice_uk_21801387.mp3",
+            "common_voice_uk_21801388.mp3",
+            "common_voice_uk_21801389.mp3"
+        ],
+        "test": [
+            "common_voice_uk_21801390.mp3",
+            "common_voice_uk_21801391.mp3"
+        ]
+    },
+    "c6d97d18a442f449773cef5bc58bb1b66fc474bd081c0bcf8d5391c60e213ed33477db503dc5956bc4aaef1b42ea09cfb52f8f23eb2a07a0c4d07241f47f6d62": {
+        "train": [
+            "common_voice_uk_32540608.mp3",
+            "common_voice_uk_32540609.mp3",
+            "common_voice_uk_32540610.mp3",
+            "common_voice_uk_32540611.mp3",
+            "common_voice_uk_32540622.mp3",
+            "common_voice_uk_32540623.mp3",
+            "common_voice_uk_32540624.mp3",
+            "common_voice_uk_32540626.mp3"
+        ],
+        "test": [
+            "common_voice_uk_32540627.mp3",
+            "common_voice_uk_32540628.mp3"
+        ]
+    },
+    "40c755e6d364f917e98abab3a4012f10556e14c2c5a6b970d49ee4cc91f3a37dba3159fb716ad3aab409f8c3e101a67d5d18f7e532921594409cbc45ebcbfb80": {
+        "train": [
+            "common_voice_uk_24491950.mp3",
+            "common_voice_uk_24491951.mp3",
+            "common_voice_uk_24491952.mp3",
+            "common_voice_uk_24491954.mp3",
+            "common_voice_uk_24491980.mp3",
+            "common_voice_uk_24491981.mp3",
+            "common_voice_uk_24491982.mp3",
+            "common_voice_uk_24491983.mp3"
+        ],
+        "test": [
+            "common_voice_uk_24491984.mp3",
+            "common_voice_uk_24492031.mp3"
+        ]
+    },
+    "70eb9b30d1452a8394110882979ad5dc4da8c7f29c2c2c09b738b24b942d06f94bdaa3efa662841c205f70b5e76e2be7f0a3c501e5cc64313cc4d7ad225b4207": {
+        "train": [
+            "common_voice_uk_21582253.mp3",
+            "common_voice_uk_21582254.mp3",
+            "common_voice_uk_21582256.mp3",
+            "common_voice_uk_21582258.mp3",
+            "common_voice_uk_21582262.mp3",
+            "common_voice_uk_21582288.mp3",
+            "common_voice_uk_21582289.mp3",
+            "common_voice_uk_21582290.mp3"
+        ],
+        "test": [
+            "common_voice_uk_21582292.mp3",
+            "common_voice_uk_21582295.mp3"
+        ]
+    },
+    "1f98af27411592cef30d1a53f1c676b0045c1b613192fad98fbc7e6f0d2ee7fd0fccf0476d2c5286b4cfc5e4cd142e6c986e455bc9065f1877d2bb9a66178a91": {
+        "train": [
+            "common_voice_uk_32168762.mp3",
+            "common_voice_uk_32168764.mp3",
+            "common_voice_uk_32168765.mp3",
+            "common_voice_uk_32168766.mp3",
+            "common_voice_uk_32168782.mp3",
+            "common_voice_uk_32168783.mp3",
+            "common_voice_uk_32168785.mp3",
+            "common_voice_uk_32168788.mp3"
+        ],
+        "test": [
+            "common_voice_uk_32168790.mp3",
+            "common_voice_uk_32168881.mp3"
+        ]
+    },
+    "af51aa46ed1b6f5e3f9cf4ee3d7de1dcc231832f67dc9a9a316e0e2ddaa564c3c3a3c69c0513e8d02180ea7b288f236e7b92861faf32039b1dc26a8034b01584": {
+        "train": [
+            "common_voice_uk_23548733.mp3",
+            "common_voice_uk_23548737.mp3",
+            "common_voice_uk_23548741.mp3",
+            "common_voice_uk_23548742.mp3",
+            "common_voice_uk_23548744.mp3",
+            "common_voice_uk_23548760.mp3",
+            "common_voice_uk_23548761.mp3",
+            "common_voice_uk_23548762.mp3"
+        ],
+        "test": [
+            "common_voice_uk_23548763.mp3",
+            "common_voice_uk_23548764.mp3"
+        ]
+    },
+    "9b64a6a7a99d0425e30e9f9e1e3e99431d9ed8d7e6ae16c05a3cee5ea55549657a460617fdc45fa83a191461055220140a0c97c6f27f7bd1f51e0f9ef69900f2": {
+        "train": [
+            "common_voice_uk_21350644.mp3",
+            "common_voice_uk_21350646.mp3",
+            "common_voice_uk_21350648.mp3",
+            "common_voice_uk_21350672.mp3",
+            "common_voice_uk_21350674.mp3",
+            "common_voice_uk_21350676.mp3",
+            "common_voice_uk_21350677.mp3",
+            "common_voice_uk_21350719.mp3"
+        ],
+        "test": [
+            "common_voice_uk_21350723.mp3",
+            "common_voice_uk_21350727.mp3"
+        ]
+    },
+    "a0d9c2cbad55944c1bd3e607b6465e881609c2db10432d5b756a31fdb763cc0394c31bfd62343597c7a681a90ff93e41c5fd13af6b489ff1c01479146aca395c": {
+        "train": [
+            "common_voice_uk_29244243.mp3",
+            "common_voice_uk_29244245.mp3",
+            "common_voice_uk_29244246.mp3",
+            "common_voice_uk_29244247.mp3",
+            "common_voice_uk_29244396.mp3",
+            "common_voice_uk_29244397.mp3",
+            "common_voice_uk_29244399.mp3",
+            "common_voice_uk_29244400.mp3"
+        ],
+        "test": [
+            "common_voice_uk_29244402.mp3",
+            "common_voice_uk_29244630.mp3"
+        ]
+    },
+    "6c3c958af4b27b1e831ffe6e822fbc69bfdea44a2453465684d27efd6286687cf18cd1ba5f7a2e40a771b31506aad0953efdf274df38c2906e6846329586fbb1": {
+        "train": [
+            "common_voice_uk_34857746.mp3",
+            "common_voice_uk_34857752.mp3",
+            "common_voice_uk_34857760.mp3",
+            "common_voice_uk_34857764.mp3",
+            "common_voice_uk_34857769.mp3",
+            "common_voice_uk_34859051.mp3",
+            "common_voice_uk_34859052.mp3",
+            "common_voice_uk_34859054.mp3"
+        ],
+        "test": [
+            "common_voice_uk_34859059.mp3",
+            "common_voice_uk_34859160.mp3"
+        ]
+    },
+    "17a730eae7ece6949fe71555dfc92d06f29693961435a71844d46305fa57c8cab274f6f66ceaa0ac273e876032010621a586ba2d5c60d3be8490ad3f3528476c": {
+        "train": [
+            "common_voice_uk_23565713.mp3",
+            "common_voice_uk_23565714.mp3",
+            "common_voice_uk_23565715.mp3",
+            "common_voice_uk_23565716.mp3",
+            "common_voice_uk_23565717.mp3",
+            "common_voice_uk_23565723.mp3",
+            "common_voice_uk_23565724.mp3",
+            "common_voice_uk_23565725.mp3"
+        ],
+        "test": [
+            "common_voice_uk_23565726.mp3",
+            "common_voice_uk_23565727.mp3"
+        ]
+    },
+    "547127146fa78f6fb92d28b8b83b301d6f33b8f7c850b53d69de43b98ded2d703847a45ebccc86d614cf124add1f7de3f3fe922c2acdbd637b8680be8b0563ea": {
+        "train": [
+            "common_voice_uk_26225062.mp3",
+            "common_voice_uk_26225063.mp3",
+            "common_voice_uk_26225064.mp3",
+            "common_voice_uk_26225065.mp3",
+            "common_voice_uk_26225066.mp3",
+            "common_voice_uk_26225143.mp3",
+            "common_voice_uk_26225144.mp3",
+            "common_voice_uk_26225145.mp3"
+        ],
+        "test": [
+            "common_voice_uk_26225146.mp3",
+            "common_voice_uk_26225147.mp3"
+        ]
+    },
+    "2d10a66379f057a5678936238bbdc969becf88cc88289570958ddbb7c31504879ab1e390a96a46ec78db8d8422b15d26e8092e63aca1ea4815b1cf06e511fecd": {
+        "train": [
+            "common_voice_uk_38188983.mp3",
+            "common_voice_uk_38188984.mp3",
+            "common_voice_uk_38188985.mp3",
+            "common_voice_uk_38188986.mp3",
+            "common_voice_uk_38188987.mp3",
+            "common_voice_uk_38188993.mp3",
+            "common_voice_uk_38188995.mp3",
+            "common_voice_uk_38188996.mp3"
+        ],
+        "test": [
+            "common_voice_uk_38188998.mp3",
+            "common_voice_uk_38188999.mp3"
+        ]
+    },
+    "44157362122c6d43cbfa6408eba06a9b73490718c51ebb62c1075c534b92a7ad53e825560ffe58e82a306b9f65145ba08fbff3274170921306c8295b941d9837": {
+        "train": [
+            "common_voice_uk_27163582.mp3",
+            "common_voice_uk_27163583.mp3",
+            "common_voice_uk_27163584.mp3",
+            "common_voice_uk_27163585.mp3",
+            "common_voice_uk_27163602.mp3",
+            "common_voice_uk_27163603.mp3",
+            "common_voice_uk_27163604.mp3",
+            "common_voice_uk_27163605.mp3"
+        ],
+        "test": [
+            "common_voice_uk_27163606.mp3",
+            "common_voice_uk_27163663.mp3"
+        ]
+    }
+}

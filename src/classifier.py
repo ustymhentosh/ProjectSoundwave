@@ -4,22 +4,15 @@ import librosa.display
 import json
 from sklearn.neighbors import KNeighborsClassifier
 import os
-from tqdm import tqdm
+from mfcc import our_mfcc
 
 
-def extract_mfcc(audio_file, window_size_ms=25, step_ms=10, n_mfcc=13):
-    """Extracts Mel-frequency cepstral coefficients (MFCCs) from an audio file.
-
-    Args:
-        audio_file (str): Path to the audio file.
-        window_size_ms (int, optional): Size of the analysis window in milliseconds. Defaults to 25.
-        step_ms (int, optional): Step size between consecutive frames in milliseconds. Defaults to 10.
-        n_mfcc (int, optional): Number of MFCCs to extract. Defaults to 13.
-
-    Returns:
-        numpy.ndarray: MFCC matrix, where rows represent frames and columns represent MFCC coefficients.
+def lib_mfcc(audio_file, window_size_ms=25, step_ms=10, n_mfcc=13):
+    """
+    Proxy for mfcc
     """
     y, sr = librosa.load(audio_file, sr=None)
+
     y = np.array([i for i in y if abs(i) > 0.005])
 
     n_fft = int(sr * window_size_ms / 1000)
@@ -36,10 +29,14 @@ class UsLeVoModel:
     Model for classification peoplr by voice mfc coeficients
     """
 
-    def __init__(self, k, win_size, step) -> None:
+    def __init__(self, k, win_size, step, mtype="lib") -> None:
         self.space = KNeighborsClassifier(n_neighbors=k)
         self.w = win_size
         self.s = step
+        if mtype == "lib":
+            self.extract_mfcc = lib_mfcc
+        else:
+            self.extract_mfcc = our_mfcc
 
     def _get_majority(self, lst):
         mj = max(set(lst), key=list(lst).count)
@@ -51,9 +48,11 @@ class UsLeVoModel:
             dct = json.load(f)
         classes = []
         data = []
+        count = 0
         for user, value in dct.items():
+            count += 1
             for rec_path in value["train"]:
-                rec_mfcc = extract_mfcc(
+                rec_mfcc = self.extract_mfcc(
                     rec_dir + os.sep + rec_path, window_size_ms=self.w, step_ms=self.s
                 )
                 for j in rec_mfcc:
@@ -68,8 +67,8 @@ class UsLeVoModel:
         retults = {"right": [], "wrong": []}
 
         for user, value in dct.items():
-            for rec_path in value["validation"]:
-                rec_mfcc = extract_mfcc(
+            for rec_path in value["test"]:
+                rec_mfcc = self.extract_mfcc(
                     rec_dir + os.sep + rec_path, window_size_ms=self.w, step_ms=self.s
                 )
                 prediction, prc = self._get_majority(self.space.predict(rec_mfcc))
@@ -78,14 +77,3 @@ class UsLeVoModel:
                 else:
                     retults["wrong"].append(prc)
         return retults
-
-
-dct = {}
-for k in tqdm([10, 20, 50, 100]):
-    for win_size in [20, 40, 60, 100]:
-        m = UsLeVoModel(20, win_size, int(win_size / 2.5))
-        m.train("src/male.json", "dataset/clips")
-        dct[f"k={k}, win_size={win_size}"] = m.test("src/male.json", "dataset\clips")
-
-with open("male_results.json", "w", encoding="utf-8") as f:
-    json.dump(dct, f)
