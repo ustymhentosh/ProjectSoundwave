@@ -28,4 +28,4 @@ Big shoutout to Mozila Common Voice community for providing big dataset with voi
 ## Results
 Our results while testing classification with 50 users male and female with 8 samples of training data and 2 of testing for each is accuracy of **0.8%**
 
-<img src="https://github.com/ustymhentosh/ProjectSoundwave/tree/main/images/plot1.png">
+<img src="images/plot1.png">
