@@ -11,16 +11,16 @@ This ropository contains code that implements and tests speaker recognition syst
 
 ## Сontent
 ### src
-- **classifier.py** - provide classificator class for training and testing
-- **launch.py** - runs the system
-- **mfcc.py** - code for extracting mfcc
-- **moses.py** - code for spliting dataset
-- **plotter.ipynb** - code for plotting graphs
+- `classifier.py` - provide classificator class for training and testing
+-  `launch.py ` - runs the system
+-  `mfcc.py ` - code for extracting mfcc
+-  `moses.py ` - code for spliting dataset
+-  `plotter.ipynb ` - code for plotting graphs
 
 ### results
-- **validation_1/ & validation_2/** - data and results of validation step
-- **testing/** - results of testing
-- **comparison/** - results of comparing two mfcc methods from librosa and our own
+-  `validation_1/ & validation_2/ ` - data and results of validation step
+-  `testing/ ` - results of testing
+-  `comparison/ ` - results of comparing two mfcc methods from librosa and our own
 
 ### app
 - contains code for a simple desktop application for classification your own data
