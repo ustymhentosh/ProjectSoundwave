@@ -1,5 +1,8 @@
 # Linear Algebra course project: Speaker Recognition
 
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
 Authors:
 Ustym Hentosh, Lev Kupybida, Volodymyr Bronetskyi
 
@@ -23,7 +26,7 @@ This ropository contains code that implements and tests speaker recognition syst
 - contains code for a simple desktop application for classification your own data
 
 ## Data
-Big shoutout to Mozila Common Voice community for providing big dataset with voice recordings - https://commonvoice.mozilla.org/uk/datasets
+Big shoutout to Mozila Common Voice community for providing big dataset with voice recordings  https://commonvoice.mozilla.org/uk/datasets
 
 ## Results
 Our results while testing classification with 50 users male and female with 8 samples of training data and 2 of testing for each is accuracy of **0.8%**
