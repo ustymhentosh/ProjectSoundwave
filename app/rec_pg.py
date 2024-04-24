@@ -1,11 +1,13 @@
+import time
 import tkinter as tk
 from tkinter import ttk
 import sounddevice as sd
 import soundfile as sf
 import threading
 from tkinter import filedialog as fd
-
-
+import subprocess
+import pygame
+import time
 class RecPage(ttk.Frame):
     def __init__(self, master, arguments):
         super().__init__(master)
@@ -38,19 +40,31 @@ class RecPage(ttk.Frame):
             countdown_label.config(text="and the answer is..")
 
         def start_recording(duration, fs):
-            recording = sd.rec(int(duration * fs), samplerate=fs, channels=2)
-            sd.wait()  # Wait for recording to finish
+            # recording = sd.rec(int(duration * fs), samplerate=fs)
+            # sd.wait()  # Wait for recording to finish
+            #
+            # filename = "recorded_sound.wav"
+            # sf.write(filename, recording, fs)
+            # print("Recording saved as:", filename)
+            answ["text"] = ""
+            root.update()
 
-            filename = "recorded_sound.wav"
-            sf.write(filename, recording, fs)
-            print("Recording saved as:", filename)
+            java_command = ["java", "AudioRecorder"]
+            subprocess.run(java_command, check=True)
 
             # Notify the main GUI thread that recording is finished
             master.event_generate("<<RecordingFinished>>", when="tail")
 
         def enable_record_button(event):
             record_button.config(state=tk.NORMAL)
-            answ["text"] = self.model.test("recorded_sound.wav")
+            answ["text"] = "🥁🥁🥁"
+            root.update()
+            answer = self.model.test("recorded_sound.wav")
+            pygame.mixer.init()
+            pygame.mixer.music.load("drumroll.wav")
+            pygame.mixer.music.play()
+            time.sleep(2.1)
+            answ["text"] = answer
 
         ttk.Style().configure("primary.TButton", font=("Calibri", 12, "bold"))
         ttk.Style().configure("info.TButton", font=("Calibri", 12, "bold"))
